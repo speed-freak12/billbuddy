@@ -13,6 +13,14 @@
     "isolatedModules": true,
     "noEmit": true,
     "jsx": "react-jsx",
+
+    /* --- ADD THIS SECTION --- */
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"]
+    },
+    /* --- END OF ADDED SECTION --- */
+
     "strict": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,

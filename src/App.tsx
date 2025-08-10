@@ -5,7 +5,7 @@ import Dashboard from './assets/components/ui/Dashboard'
 import AddSubscription from './assets/components/ui/AddSubscription'
 import Buddies from './assets/components/ui/Buddies'
 import Settings from './assets/components/ui/Settings'
-import { Toaster } from './components/ui/toaster'
+import { Toaster } from "@/components/ui/toaster";
 import { CurrencyProvider } from './contexts/CurrencyContext'
 
 interface User {

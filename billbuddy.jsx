@@ -4,9 +4,16 @@ import { getAuth, signInAnonymously, onAuthStateChanged } from 'firebase/auth';
 import { getFirestore, collection, doc, addDoc, getDocs, deleteDoc, onSnapshot, query, setDoc, getDoc, setLogLevel } from 'firebase/firestore';
 
 // --- Firebase and App Config ---
-const firebaseConfig = typeof __firebase_config !== 'undefined' ? JSON.parse(__firebase_config) : {};
-const appId = typeof __app_id !== 'undefined' ? __app_id : 'default-app-id';
-
+const firebaseConfig = {
+  apiKey: "AIzaSyBS2ozSgAt-8bYeuGmORcdoGvyl0KIDG_A",
+  authDomain: "billbuddy12.firebaseapp.com",
+  projectId: "billbuddy12",
+  storageBucket: "billbuddy12.firebasestorage.app",
+  messagingSenderId: "352696913198",
+  appId: "1:352696913198:web:da11158c95df05b21efebf",
+  measurementId: "G-4LG1XN59M6"
+};
+const appId = firebaseConfig.projectId;``
 const app = initializeApp(firebaseConfig);
 const auth = getAuth(app);
 const db = getFirestore(app);

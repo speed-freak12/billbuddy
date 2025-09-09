@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/billbuddy/static/css/main.e6c13ad2.css",
+    "main.js": "/billbuddy/static/js/main.c34153e7.js",
+    "static/js/453.a7735dbf.chunk.js": "/billbuddy/static/js/453.a7735dbf.chunk.js",
+    "index.html": "/billbuddy/index.html",
+    "main.e6c13ad2.css.map": "/billbuddy/static/css/main.e6c13ad2.css.map",
+    "main.c34153e7.js.map": "/billbuddy/static/js/main.c34153e7.js.map",
+    "453.a7735dbf.chunk.js.map": "/billbuddy/static/js/453.a7735dbf.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.c34153e7.js"
+  ]
+}
